@@ -3,7 +3,7 @@
 
 Name:             geronimo-annotation
 Version:          1.0
-Release:          14%{?dist}
+Release:          15%{?dist}
 Summary:          Java EE: Annotation API v1.1
 License:          ASL 2.0
 URL:              http://geronimo.apache.org/
@@ -53,6 +53,9 @@ sed -i 's/\r//' LICENSE NOTICE
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0-15
+- Mass rebuild 2013-12-27
+
 * Thu Aug 08 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 1.0-14
 - Update to latest packaging guidelines
 
